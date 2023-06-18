@@ -1,0 +1,17 @@
+# Compiled
+/public
+
+# Dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+
+# MacOS specific files
+.DS_STORE
+
+#tsc
+/distTs
+
+voting.local.pem
+voting.local-key.pem

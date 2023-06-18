@@ -1,0 +1,68 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "module": "ES2020",
+    "jsx": "preserve",
+    "target": "es2019",
+    "baseUrl": ".",
+    "outDir": "distTs",
+    "paths": {
+      "src/*": [
+        "src/*"
+      ],
+      "styles/*": [
+        "src/assets/styles/*"
+      ],
+      "img/*": [
+        "src/assets/images/*"
+      ],
+      "fonts/*": [
+        "src/assets/fonts/*"
+      ],
+      "docs/*": [
+        "src/assets/docs/*"
+      ],
+      "icons/*": [
+        "src/assets/icons/*"
+      ],
+      "store": [
+        "src/store"
+      ],
+      "api": [
+        "src/api/"
+      ],
+      "api/*": [
+        "src/api/*"
+      ],
+      "store/*": [
+        "src/store/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "types/*": [
+        "src/types/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "constants/*": [
+        "src/constants/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

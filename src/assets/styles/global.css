@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: local('Montserrat-Regular'), local('Montserrat'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: italic;
+  src: local('Montserrat-Italic'), local('Montserrat'), url('../fonts/Montserrat-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  src: local('Montserrat-Bold'), local('Montserrat'), url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  src: local('Montserrat-SemiBold'), local('Montserrat'), url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  src: local('Montserrat-Medium'), local('Montserrat'), url('../fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-style: normal;
+  src: local('Montserrat-Light'), local('Montserrat'), url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: 'Montserrat', serif;
+  background: rgb(255, 255, 255);
+  color: rgb(10, 6, 6);
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+body {
+  font-size: 13px;
+  color: rgb(10, 6, 6);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.DayPicker {
+  display: block;
+}
+
+.DayPicker-Day {
+  padding: .93em !important;
+}
+
+.DayPicker-Day:hover {
+  background-color: #ccc !important;
+  border-radius: 0 !important;
+}
+
+.DayPicker-Day--selected {
+  background-color: #000 !important;
+  border-radius: 0 !important;
+}
+
+.DayPicker-Day--today {
+  color: inherit !important;
+  font-weight: normal !important;
+}
+
+.DayPicker-Day--selected.DayPicker-Day--today {
+  color: #F0F8FF !important;
+}
+
+.DayPicker-Caption {
+  text-align: center !important;
+}
+
+.DayPicker-Months {
+  flex-wrap: nowrap !important;
+}
+
+.DayPicker-Day--outside:hover {
+  cursor: default;
+}
+
+.DayPicker-Day--outside:hover,
+.DayPicker-Day--disabled:hover {
+  background-color: transparent !important;
+}
+
+:root {
+  --brand-color100: rgba(0, 168, 122, 1);
+  --brand-color095: rgba(0, 168, 122, .95);
+  --brand-color090: rgba(0, 168, 122, .9);
+  --brand-color085: rgba(0, 168, 122, .85);
+  --brand-color080: rgba(0, 168, 122, .8);
+  --brand-color075: rgba(0, 168, 122, .75);
+  --brand-color070: rgba(0, 168, 122, .7);
+  --brand-color065: rgba(0, 168, 122, .65);
+  --brand-color060: rgba(0, 168, 122, .6);
+  --brand-color055: rgba(0, 168, 122, .55);
+  --brand-color050: rgba(0, 168, 122, .5);
+  --brand-color045: rgba(0, 168, 122, .45);
+  --brand-color040: rgba(0, 168, 122, .4);
+  --brand-color035: rgba(0, 168, 122, .35);
+  --brand-color030: rgba(0, 168, 122, .3);
+  --brand-color025: rgba(0, 168, 122, .25);
+  --brand-color020: rgba(0, 168, 122, .2);
+  --brand-color015: rgba(0, 168, 122, .15);
+  --brand-color010: rgba(0, 168, 122, .1);
+  --brand-color005: rgba(0, 168, 122, .05);
+  --brand-color000: rgba(0, 168, 122, 0);
+}
